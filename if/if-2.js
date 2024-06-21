@@ -16,10 +16,10 @@ a = 40;
 b = -20;
 c = 23;
 
-if(a < c < b) {
-    console.log(c);
-} else if(b < a < c) {
+if(a < b) {
+    console.log(b);
+} else if(c < a < b) {
     console.log(a);
-} else if(a < c < b){
+} else if(b < c < a){
     console.log(c);
 }
