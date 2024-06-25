@@ -1,7 +1,8 @@
+let a = 3;
 let n = 3;
 let s = 0;
 
-for(let i = 1.1; i <= n; i += 0.1){
-    s *= i;
+for(let i = n; i <= n; i++){
+    s = a**i;
+    console.log(s);
 }
-console.log(s);
